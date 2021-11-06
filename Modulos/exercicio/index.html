@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula sobre importação de módulos JavaScript</title>
+</head>
+<body>
+    <h1>Objetivo</h1>
+    <p>Esta atividade tem como objetivo que você veja no console do seu navegador como os módulos funcionam.</p>
+    <ol>
+        <li>Crie dois arquivos .js ou .mjs, um chamado funcoes e outro chamado main;</li>
+        <li>No arquivo funcoes
+            <ul>
+                <li>Crie uma função chamada mostraIdade, que recebe nome e idade e retorna a string: A idade de ${nome} é ${idade};</li>
+                <li>Siga o mesmo padrão para outras funções como mostraCidade e mostraHobby;</li>
+                <li>Exporte estas funções</li>
+            </ul>
+        </li>
+        <li>No arquivo main
+            <ul>
+                <li>Importe as funções do arquivo funcoes;</li>
+                <li>Faça a chamada de todas elas;</li>
+            </ul>
+        </li>
+        <li>Utilizando a extensão "Live Server", abra o seu navegador e veja no console que as informações foram logadas corretamente.</li>
+    </ol>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
